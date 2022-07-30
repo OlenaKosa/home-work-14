@@ -5,11 +5,14 @@
 
 @mixin font($fs,$lh,$fw:400) {
   font-size: $fs;
+
   @if ($fs>$lh) {
     line-height: $fs;
   } @else {
     line-height: $lh;
   }
 
-  font-weight: $fw;
+  @if ($fw!=400) {
+    font-weight: $fw;
+  }
 }

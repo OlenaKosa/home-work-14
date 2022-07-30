@@ -1,0 +1,15 @@
+@mixin flexsb() {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin font($fs,$lh,$fw:400) {
+  font-size: $fs;
+  @if ($fs>$lh) {
+    line-height: $fs;
+  } @else {
+    line-height: $lh;
+  }
+
+  font-weight: $fw;
+}

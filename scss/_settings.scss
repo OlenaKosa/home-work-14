@@ -1,0 +1,20 @@
+@use "./varibles" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+ body {
+  background-color: $backgroundcolor;
+  font-family: 'Gilroy', Arial, sans-serif;
+ }
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}

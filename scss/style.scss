@@ -1,21 +1,8 @@
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  width: 1320px;
-  margin: 0 auto;
-}
-
-a {
-  text-decoration: none;
-  display: inline-block;
-}
-
-@mixin flexsb() {
-  display: flex;
-  justify-content: space-between;
-}
+@use "./normalize" as *;
+@use "./fonts" as *;
+@use "./varibles" as *;
+@use "./mixins" as *;
+@use "./settings" as *;
 
 .header {
   padding-top: 33px;
@@ -29,25 +16,28 @@ a {
 
     &__user-buttons {
       @include flexsb();
+      align-items: center;
     }
 
     &__tel {
       margin-right: 62.5px;
-      align-self: flex-start;
       
         a {
           color: #000;
-          font-size: 18px;
-          line-height: 21px;
+          vertical-align: top;
+          @include font(18px,21px);
         }
     }
 
     &__buttons {
-      a {
-        margin-right: 25px;
+      
+
+      button {
+        padding: 0;
+        margin-right: 15px;
       }
 
-      a:last-of-type {
+      button:last-of-type {
         margin-right: 0;
       }
     }
@@ -61,6 +51,10 @@ a {
       width: 26px;
       height: 27px;
     }
+}
+
+div {
+  border: 1px solid grey;
 }
 
 .flex-space-between {

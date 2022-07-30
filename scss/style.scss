@@ -1,8 +1,9 @@
-@use "./normalize" as *;
-@use "./fonts" as *;
 @use "./varibles" as *;
 @use "./mixins" as *;
-@use "./settings" as *;
+
+@import "./normalize";
+@import "./fonts";
+@import "./settings";
 
 .header {
   padding-top: 33px;
@@ -30,11 +31,13 @@
     }
 
     &__buttons {
-      
 
       button {
         padding: 0;
-        margin-right: 15px;
+        background: none;
+        // border: none;
+        width: 46px;
+        height: 45px;
       }
 
       button:last-of-type {
@@ -53,7 +56,13 @@
     }
 }
 
+// ------
+
 div {
+  border: 1px solid grey;
+}
+
+button {
   border: 1px solid grey;
 }
 

@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.header {
+  padding-top: 33px;
+  padding-bottom: 30px;
+  background-color: #fff;
+}
+.header__logo {
+  width: 244px;
+  height: 45px;
+}
+.header__user-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.header__tel {
+  margin-right: 62.5px;
+  align-self: flex-start;
+}
+.header__tel a {
+  color: #000;
+  font-size: 18px;
+  line-height: 21px;
+}
+.header__buttons a {
+  margin-right: 25px;
+}
+.header__buttons a:last-of-type {
+  margin-right: 0;
+}
+.header__buy {
+  width: 30px;
+  height: 32px;
+}
+.header__add-user {
+  width: 26px;
+  height: 27px;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}

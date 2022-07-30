@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+@mixin flexsb() {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  padding-top: 33px;
+  padding-bottom: 30px;
+  background-color: #fff;
+
+    &__logo {
+      width: 244px;
+      height: 45px;
+    }
+
+    &__user-buttons {
+      @include flexsb();
+    }
+
+    &__tel {
+      margin-right: 62.5px;
+      align-self: flex-start;
+      
+        a {
+          color: #000;
+          font-size: 18px;
+          line-height: 21px;
+        }
+    }
+
+    &__buttons {
+      a {
+        margin-right: 25px;
+      }
+
+      a:last-of-type {
+        margin-right: 0;
+      }
+    }
+
+    &__buy {
+      width: 30px;
+      height: 32px;
+    }
+
+    &__add-user {
+      width: 26px;
+      height: 27px;
+    }
+}
+
+.flex-space-between {
+  @include flexsb();
+}

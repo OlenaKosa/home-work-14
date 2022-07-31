@@ -11,12 +11,12 @@
   <header class="header">
     <div class="wrapper">
       <div>
-        <div class="flex-space-between">
+        <div class="header__logo-row">
         <a href="./index.html"><img src="./images/logo.svg" alt="logo" class="header__logo"></a>
            <div  class="header__user-block flex-space-between">
-            <div class="header__tel">
-              <a href="/"><img src="./images/tel.svg" alt="telephone"></a>
-              <a href="tel:89209994350">8 920 999 43 50</a>
+            <div class="header__tel telephone">
+              <a href="/"><img src="./images/tel.svg" alt="telephone" class="telephone__img"></a>
+              <a href="tel:89209994350" class="telephone__link">8 920 999 43 50</a>
             </div>
             <div class="header__user-buttons">
               <button>
@@ -28,13 +28,17 @@
             </div>
           </div>
         </div>
-        <div class="flex-space-between">
-          <nav class="header__navigation">
-            <a href="/">Каталог</a>
-            <button>o</button>
-            <a href="/">О проекте</a>
-            <a href="/">Птицы</a>
-            <a href="/">Пожертвования</a>
+        <div class="header__navigation-row">
+          <nav class="header__navigation navigation">
+            <div>
+              <a href="/" class="navigation__link">Каталог</a>
+              <button type="button" class="arrow-button">
+                <img src="./images/bottom_arrow.svg" alt="arrow">
+              </button>
+            </div>
+            <a href="/" class="navigation__link">О проекте</a>
+            <a href="/" class="navigation__link">Птицы</a>
+            <a href="/" class="navigation__link">Пожертвования</a>
           </nav>
           <div class="header__search search">
             <input type="text" name="search" placeholder="Поиск" class="search__input">

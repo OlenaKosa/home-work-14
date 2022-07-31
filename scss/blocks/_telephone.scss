@@ -1,0 +1,11 @@
+.telephone {
+
+    &__img {
+      margin-right: 12px;
+    }
+
+    &__link {
+      @include font(18px,21px);
+      vertical-align: top;
+    }
+}

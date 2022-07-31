@@ -1,0 +1,9 @@
+.navigation {
+  @include font(18px,21px,500);
+  @include flexsb();
+  gap: 40px;
+
+  &__link {
+    color: #4F4F4F;
+  }
+}

@@ -1,3 +1,7 @@
 .card {
-
+  width: 315px;
+  background: #F9F9F9;
+  border: 1px solid #F2F2F2;
+  border-radius: 20px;
+  @include font(18px,21px,500);
 }

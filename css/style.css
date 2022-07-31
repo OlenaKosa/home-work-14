@@ -360,6 +360,13 @@ a {
   align-items: center;
 }
 
+.link-button {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
 .icon-button {
   width: 46px;
   height: 45px;
@@ -376,6 +383,14 @@ a {
 
 .arrow-button:hover {
   cursor: pointer;
+}
+
+.fill-button {
+  height: 45px;
+  color: #FFF;
+  background: #3FCF5E;
+  border: 1px solid rgba(5, 175, 52, 0.53);
+  border-radius: 10px;
 }
 
 .telephone__img {
@@ -538,6 +553,16 @@ a {
 }
 .footer__tel a {
   color: #FFF;
+}
+
+.card {
+  width: 315px;
+  background: #F9F9F9;
+  border: 1px solid #F2F2F2;
+  border-radius: 20px;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
 }
 
 .main {

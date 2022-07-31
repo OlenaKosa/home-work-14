@@ -1,0 +1,32 @@
+.search {
+  background: #F2F2F2;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+  width: 345px;
+  height: 54px;
+  padding: 9px 20px;
+  @include flexsb();
+
+  input {
+    background: inherit;
+    border: none;
+    @include font(18px,21px);
+    flex-grow: 1;
+  }
+
+  input:focus-visible {
+    outline: none;
+  }
+
+  button {
+    background: inherit;
+    border: none;
+    padding: 0;
+    align-self: flex-end;
+
+    img {
+      width: 26px;
+      height: 27px;
+    }
+  }
+}

@@ -354,6 +354,42 @@ a {
   display: inline-block;
 }
 
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search {
+  background: #F2F2F2;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+  width: 345px;
+  height: 54px;
+  padding: 9px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.search input {
+  background: inherit;
+  border: none;
+  font-size: 18px;
+  line-height: 21px;
+  flex-grow: 1;
+}
+.search input:focus-visible {
+  outline: none;
+}
+.search button {
+  background: inherit;
+  border: none;
+  padding: 0;
+  align-self: flex-end;
+}
+.search button img {
+  width: 26px;
+  height: 27px;
+}
+
 .header {
   padding-top: 33px;
   padding-bottom: 30px;
@@ -363,10 +399,9 @@ a {
   width: 244px;
   height: 45px;
 }
-.header__user-buttons {
+.header__user-block {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .header__tel {
   margin-right: 62.5px;
@@ -377,13 +412,10 @@ a {
   font-size: 18px;
   line-height: 21px;
 }
-.header__buttons button {
+.header__user-buttons button {
   padding: 0;
-  background: none;
-  width: 46px;
-  height: 45px;
 }
-.header__buttons button:last-of-type {
+.header__user-buttons button:last-of-type {
   margin-right: 0;
 }
 .header__buy {
@@ -399,11 +431,10 @@ div {
   border: 1px solid grey;
 }
 
-button {
-  border: 1px solid grey;
-}
-
-.flex-space-between {
-  display: flex;
-  justify-content: space-between;
+.icon-button {
+  width: 46px;
+  height: 45px;
+  background: #FFF;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
 }

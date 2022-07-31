@@ -4,6 +4,7 @@
 @import "./normalize";
 @import "./fonts";
 @import "./settings";
+@import "./blocks/search";
 
 .header {
   padding-top: 33px;
@@ -15,9 +16,9 @@
       height: 45px;
     }
 
-    &__user-buttons {
+    &__user-block {
       @include flexsb();
-      align-items: center;
+      // align-items: center;
     }
 
     &__tel {
@@ -30,14 +31,12 @@
         }
     }
 
-    &__buttons {
+    &__user-buttons {
 
       button {
         padding: 0;
-        background: none;
+        // background: none;
         // border: none;
-        width: 46px;
-        height: 45px;
       }
 
       button:last-of-type {
@@ -62,10 +61,12 @@ div {
   border: 1px solid grey;
 }
 
-button {
-  border: 1px solid grey;
+.icon-button {
+  width: 46px;
+  height: 45px;
+  background: #FFF;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
 }
 
-.flex-space-between {
-  @include flexsb();
-}
+

@@ -360,7 +360,7 @@ a {
 }
 
 .telephone__img {
-  margin-right: 12px;
+  margin-right: 10px;
 }
 .telephone__link {
   font-size: 18px;
@@ -437,13 +437,14 @@ a {
   align-items: center;
 }
 .header__tel {
-  margin-right: 62.5px;
+  margin-right: 55px;
 }
 .header__tel a {
   color: #000;
 }
 .header__user-buttons button {
   padding: 0;
+  margin-right: 15px;
 }
 .header__user-buttons button:last-of-type {
   margin-right: 0;

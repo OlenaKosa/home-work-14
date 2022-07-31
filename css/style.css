@@ -539,3 +539,32 @@ a {
 .footer__tel a {
   color: #FFF;
 }
+
+.main {
+  padding-top: 75px;
+}
+.main__links {
+  margin-bottom: 30px;
+}
+.main__link {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+  color: #BDBDBD;
+  position: relative;
+  margin-right: 35px;
+}
+.main__link:last-of-type {
+  margin-right: 0;
+}
+.main__link:not(:last-of-type)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 3px);
+  right: -20px;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #BDBDBD;
+}

@@ -1,8 +1,9 @@
 .main {
   padding-top: 75px;
+  font-size: 0;
 
   &__path {
-    
+    margin-bottom: 44px;
   }
 
   &__links {
@@ -13,7 +14,7 @@
     @include font(18px,21px,500);
     color: #BDBDBD;
     position: relative;
-    margin-right: 35px;
+    margin-right: 32px;
   }
 
   &__link:last-of-type {
@@ -30,6 +31,22 @@
     height: 6px;
     border-radius: 50%;
     background-color: #BDBDBD;
+  }
+
+  &__previous-link {
+    @include font(20px,24px,500);
+    color: #333333;
+
+    img {
+      width: 7px;
+      height: 12px;
+      margin-right: 6px;
+      margin-left: 6px;
+    }
+  }
+
+  &__pages {
+    text-align: center;
   }
 
 }

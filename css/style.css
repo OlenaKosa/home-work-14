@@ -357,6 +357,7 @@ a {
 .flex-space-between {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .icon-button {
@@ -398,6 +399,7 @@ a {
   padding-right: 22px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .search__input {
   background: inherit;
@@ -426,6 +428,7 @@ a {
   font-weight: 500;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 40px;
 }
 .navigation__link {
@@ -435,6 +438,7 @@ a {
 .user-buttons {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   align-items: flex-start;
 }
 .user-buttons__button {
@@ -459,11 +463,13 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  align-items: center;
   padding-bottom: 37px;
 }
 .header__navigation-row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   align-items: center;
 }
 .header__logo {
@@ -473,6 +479,7 @@ a {
 .header__user-block {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   align-items: center;
   padding: 3px 0;
 }
@@ -496,4 +503,39 @@ a {
 .header__add-user {
   width: 26px;
   height: 27px;
+}
+
+.footer {
+  background-color: #333333;
+  padding-top: 100px;
+  padding-bottom: 130px;
+  font-size: 0;
+}
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__link {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+  color: #FFF;
+  margin-right: 47px;
+}
+.footer__link:last-of-type {
+  margin-right: 0;
+}
+.footer__buttons img {
+  width: 25px;
+  height: 25px;
+}
+.footer__buttons a {
+  margin-right: 20px;
+}
+.footer__buttons a:last-of-type {
+  margin-right: 0;
+}
+.footer__tel a {
+  color: #FFF;
 }

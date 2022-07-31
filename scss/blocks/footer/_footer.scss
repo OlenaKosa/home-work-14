@@ -1,0 +1,46 @@
+.footer {
+  background-color: $footer-background;
+  padding-top: 100px;
+  padding-bottom: 130px;
+  font-size: 0;
+
+  &__row {
+    @include flexsb();
+  }
+
+  &__links {
+  }
+
+  &__link {
+    @include font(18px,21px,500);
+    color: #FFF;
+    margin-right: 47px;
+  }
+
+  &__link:last-of-type {
+    margin-right: 0;
+  }
+
+  &__buttons {
+    img {
+      width: 25px;
+      height: 25px;
+    }
+
+    a {
+      margin-right: 20px;
+    }
+
+    a:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  &__tel {
+
+    a {
+      color: #FFF;
+    }
+  }
+}
+

@@ -1,6 +1,7 @@
 @mixin flexsb() {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 @mixin font($fs,$lh,$fw:400) {

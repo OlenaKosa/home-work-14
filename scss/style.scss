@@ -4,91 +4,12 @@
 @import "./normalize";
 @import "./fonts";
 @import "./settings";
+@import "./blocks/buttons";
 @import "./blocks/telephone";
 @import "./blocks/search";
 @import "./blocks/navigation";
+@import "./blocks/user-buttons";
+@import "./blocks/header";
 
 //@import "./for_me_only";
-
-.header {
-  padding-top: 33px;
-  padding-bottom: 30px;
-  background-color: #fff;
-
-    &__logo-row {
-    @include flexsb();
-    align-items: center;
-    padding-bottom: 37px;
-    }
-
-    &__navigation-row {
-    @include flexsb();
-    align-items: center;
-    }
-
-    &__logo {
-      width: 244px;
-      height: 45px;
-    }
-
-    &__user-block {
-      @include flexsb();
-      align-items: center;
-    }
-
-    &__tel {
-      margin-right: 55px;
-      
-        a {
-          color: #000;
-        }
-    }
-
-    &__user-buttons {
-
-      button {
-        padding: 0;
-        margin-right: 15px;
-        // background: none;
-        // border: none;
-      }
-
-      button:last-of-type {
-        margin-right: 0;
-      }
-    }
-
-    &__buy {
-      width: 30px;
-      height: 32px;
-    }
-
-    &__add-user {
-      width: 26px;
-      height: 27px;
-    }
-}
-
-.icon-button {
-  width: 46px;
-  height: 45px;
-  background: #FFF;
-  border: 1px solid #BDBDBD;
-  border-radius: 10px;
-}
-
-.arrow-button {
-  padding: 0;
-  background: none;
-  border: none;
-
-  // img {
-  //   vertical-align: center;
-  // }
-}
-
-.arrow-button:hover {
-  cursor: pointer;
-}
-
 

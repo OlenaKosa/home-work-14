@@ -359,6 +359,24 @@ a {
   justify-content: space-between;
 }
 
+.icon-button {
+  width: 46px;
+  height: 45px;
+  background: #FFF;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+}
+
+.arrow-button {
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.arrow-button:hover {
+  cursor: pointer;
+}
+
 .telephone__img {
   margin-right: 10px;
 }
@@ -374,7 +392,10 @@ a {
   border-radius: 10px;
   width: 345px;
   height: 54px;
-  padding: 9px 20px;
+  padding-top: 11px;
+  padding-left: 20px;
+  padding-bottom: 4px;
+  padding-right: 22px;
   display: flex;
   justify-content: space-between;
 }
@@ -411,6 +432,24 @@ a {
   color: #4F4F4F;
 }
 
+.user-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.user-buttons__button {
+  width: 32px;
+  height: 45px;
+  margin-right: 15px;
+  padding: 0;
+  background: none;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+}
+.user-buttons__button:last-of-type {
+  margin-right: 0;
+}
+
 .header {
   padding-top: 33px;
   padding-bottom: 30px;
@@ -435,19 +474,20 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 3px 0;
 }
 .header__tel {
-  margin-right: 55px;
+  margin-right: 50px;
 }
 .header__tel a {
   color: #000;
 }
-.header__user-buttons button {
-  padding: 0;
-  margin-right: 15px;
+.header__user-buttons {
+  font-size: 0;
 }
-.header__user-buttons button:last-of-type {
-  margin-right: 0;
+.header__user-buttons button {
+  background: none;
+  border: none;
 }
 .header__buy {
   width: 30px;
@@ -456,22 +496,4 @@ a {
 .header__add-user {
   width: 26px;
   height: 27px;
-}
-
-.icon-button {
-  width: 46px;
-  height: 45px;
-  background: #FFF;
-  border: 1px solid #BDBDBD;
-  border-radius: 10px;
-}
-
-.arrow-button {
-  padding: 0;
-  background: none;
-  border: none;
-}
-
-.arrow-button:hover {
-  cursor: pointer;
 }

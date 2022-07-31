@@ -1,0 +1,54 @@
+.header {
+  padding-top: 33px;
+  padding-bottom: 30px;
+  background-color: #fff;
+
+    &__logo-row {
+    @include flexsb();
+    align-items: center;
+    padding-bottom: 37px;
+    }
+
+    &__navigation-row {
+    @include flexsb();
+    align-items: center;
+    }
+
+    &__logo {
+      width: 244px;
+      height: 45px;
+    }
+
+    &__user-block {
+      @include flexsb();
+      align-items: center;
+      padding: 3px 0;
+    }
+
+    &__tel {
+      margin-right: 50px;
+      
+        a {
+          color: #000;
+        }
+    }
+
+    &__user-buttons {
+      font-size: 0;
+
+      button {
+        background: none;
+        border: none;
+      }
+    }
+
+    &__buy {
+      width: 30px;
+      height: 32px;
+    }
+
+    &__add-user {
+      width: 26px;
+      height: 27px;
+    }
+}

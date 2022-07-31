@@ -1,0 +1,21 @@
+.icon-button {
+  width: 46px;
+  height: 45px;
+  background: #FFF;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+}
+
+.arrow-button {
+  padding: 0;
+  background: none;
+  border: none;
+
+  // img {
+  //   vertical-align: center;
+  // }
+}
+
+.arrow-button:hover {
+  cursor: pointer;
+}

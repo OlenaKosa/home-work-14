@@ -4,7 +4,12 @@
   border-radius: 10px;
   width: 345px;
   height: 54px;
-  padding: 9px 20px;
+  //padding: 9px 20px;
+  padding-top: 11px;
+  padding-left: 20px;
+  padding-bottom: 4px;
+  padding-right: 22px;
+
   @include flexsb();
 
   &__input {

@@ -369,23 +369,23 @@ a {
   display: flex;
   justify-content: space-between;
 }
-.search input {
+.search__input {
   background: inherit;
   border: none;
   font-size: 18px;
   line-height: 21px;
   flex-grow: 1;
 }
-.search input:focus-visible {
+.search__input:focus-visible {
   outline: none;
 }
-.search button {
+.search__button {
   background: inherit;
   border: none;
   padding: 0;
   align-self: flex-end;
 }
-.search button img {
+.search__button img {
   width: 26px;
   height: 27px;
 }

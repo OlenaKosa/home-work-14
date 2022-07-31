@@ -7,18 +7,18 @@
   padding: 9px 20px;
   @include flexsb();
 
-  input {
+  &__input {
     background: inherit;
     border: none;
     @include font(18px,21px);
     flex-grow: 1;
   }
 
-  input:focus-visible {
+  &__input:focus-visible {
     outline: none;
   }
 
-  button {
+  &__button {
     background: inherit;
     border: none;
     padding: 0;

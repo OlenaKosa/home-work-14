@@ -15,24 +15,7 @@
   &__link {
     @include font(18px,21px,500);
     color: #BDBDBD;
-    position: relative;
     margin-right: 35px;
-  }
-
-  &__link:last-of-type {
-    margin-right: 0;
-  }
-
-  &__link:not(:last-of-type)::after {
-    content: '';
-    position: absolute;
-    top: calc(50% - 3px);
-    right: -20px;
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background-color: #BDBDBD;
   }
 
   &__previous-link {

@@ -624,22 +624,7 @@ p {
   line-height: 21px;
   font-weight: 500;
   color: #BDBDBD;
-  position: relative;
   margin-right: 35px;
-}
-.main__link:last-of-type {
-  margin-right: 0;
-}
-.main__link:not(:last-of-type)::after {
-  content: "";
-  position: absolute;
-  top: calc(50% - 3px);
-  right: -20px;
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #BDBDBD;
 }
 .main__previous-link {
   font-size: 20px;
@@ -663,6 +648,25 @@ p {
   flex-wrap: wrap;
   row-gap: 46px;
   column-gap: 20px;
+}
+
+.path__link {
+  position: relative;
+  margin-right: 35px;
+}
+.path__link:last-of-type {
+  margin-right: 0;
+}
+.path__link:not(:last-of-type)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 3px);
+  right: -20px;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #BDBDBD;
 }
 
 .card {
@@ -775,18 +779,4 @@ p {
 .pages img {
   width: 6px;
   height: 11px;
-}
-
-div {
-  border: 1px solid grey;
-}
-
-button {
-  border: 1px solid grey;
-}
-
-.flex-space-between {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }

@@ -22,12 +22,11 @@
 
     &__user-block {
       @include flexsb();
-      align-items: center;
       padding: 3px 0;
     }
 
     &__tel {
-      margin-right: 50px;
+      margin-right: 55px;
       
         a {
           color: #000;

@@ -1,6 +1,5 @@
 .user-buttons {
   @include flexsb();
-  align-items: flex-start;
 
   &__button {
     width: 32px;

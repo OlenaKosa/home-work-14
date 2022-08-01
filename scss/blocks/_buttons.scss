@@ -13,6 +13,18 @@
   border-radius: 10px;
 }
 
+.buy-icon-button {
+  width: 46px;
+  height: 45px;
+  background: #FFF;
+  background-image: url(../images/buy.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  //@include bgimage(#FFF,"../images/buy.svg",contain);
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+}
+
 .arrow-button {
   padding: 0;
   background: none;
@@ -25,6 +37,9 @@
 
 .fill-button {
   padding: 12px 32px;
+  //height: 45px;
+  //padding: 0 32px;
+  //text-align: center;
   color: #FFF;
   background-color: #3FCF5E;
   border: 1px solid rgba(5, 175, 52, 0.53);

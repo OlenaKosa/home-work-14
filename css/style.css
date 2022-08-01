@@ -374,6 +374,17 @@ p {
   border-radius: 10px;
 }
 
+.buy-icon-button {
+  width: 46px;
+  height: 45px;
+  background: #FFF;
+  background-image: url(../images/buy.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+}
+
 .arrow-button {
   padding: 0;
   background: none;
@@ -463,11 +474,31 @@ p {
   color: #4F4F4F;
 }
 
+.buy-button {
+  position: relative;
+}
+.buy-button__counter {
+  display: none;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 2px;
+  right: -2px;
+  background: #06D10E;
+  color: #FFF;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 600;
+}
+.buy-button__counter--active {
+  display: block;
+}
+
 .user-buttons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-items: flex-start;
 }
 .user-buttons__button {
   width: 32px;
@@ -509,11 +540,10 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-items: center;
   padding: 3px 0;
 }
 .header__tel {
-  margin-right: 50px;
+  margin-right: 55px;
 }
 .header__tel a {
   color: #000;
@@ -745,4 +775,18 @@ p {
 .pages img {
   width: 6px;
   height: 11px;
+}
+
+div {
+  border: 1px solid grey;
+}
+
+button {
+  border: 1px solid grey;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

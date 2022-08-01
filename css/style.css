@@ -545,6 +545,12 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+.footer__halfrow {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .footer__link {
   font-size: 18px;
   line-height: 21px;
@@ -558,6 +564,8 @@ p {
 .footer__buttons img {
   width: 25px;
   height: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .footer__buttons a {
   margin-right: 20px;

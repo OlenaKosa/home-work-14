@@ -490,9 +490,10 @@ p {
   font-size: 12px;
   line-height: 15px;
   font-weight: 600;
+  padding: 2.5px 6.5px;
 }
 .buy-button__counter--active {
-  display: block;
+  display: inline;
 }
 
 .user-buttons {

@@ -2,7 +2,10 @@ div {
   border: 1px solid grey;
 }
 
-
 button {
   border: 1px solid grey;
+}
+
+.flex-space-between {
+  @include flexsb();
 }

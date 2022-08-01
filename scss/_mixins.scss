@@ -4,7 +4,21 @@
   align-items: center;
 }
 
-@mixin font($fs,$lh,$fw:400) {
+// @mixin font($fs,$lh,$fw:400) {
+//   font-size: $fs;
+
+//   @if ($fs>$lh) {
+//     line-height: $fs;
+//   } @else {
+//     line-height: $lh;
+//   }
+
+//   @if ($fw!=400) {
+//     font-weight: $fw;
+//   }
+// }
+
+@mixin font($fs,$lh,$fw:0) {
   font-size: $fs;
 
   @if ($fs>$lh) {
@@ -13,7 +27,7 @@
     line-height: $lh;
   }
 
-  @if ($fw!=400) {
+  @if ($fw!=0) {
     font-weight: $fw;
   }
 }

@@ -12,8 +12,10 @@
     background: #06D10E;
     color: #FFF;
     @include font(12px,15px,600);
-    padding: 2.5px 6.5px;
-    //vertical-align: middle;
+    padding-top: 2px;
+    padding-right: 7px;
+    padding-bottom: 3px;
+    padding-left: 6px;
   }
 
   &__counter--active {

@@ -6,13 +6,11 @@
 
     &__logo-row {
     @include flexsb();
-    align-items: center;
     padding-bottom: 37px;
     }
 
     &__navigation-row {
     @include flexsb();
-    align-items: center;
     }
 
     &__logo {

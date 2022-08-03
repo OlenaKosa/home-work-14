@@ -35,7 +35,7 @@
           <nav class="header__navigation navigation">
             <div>
               <a href="/" class="navigation__link">Каталог</a>
-              <button type="button" class="arrow-button">
+              <button type="button" class="arrow-button button">
                 <img src="./images/bottom_arrow.svg" alt="arrow">
               </button>
             </div>
@@ -43,11 +43,13 @@
             <a href="/" class="navigation__link">Птицы</a>
             <a href="/" class="navigation__link">Пожертвования</a>
           </nav>
-          <div class="header__search search">
-            <input type="text" name="search" placeholder="Поиск" class="search__input">
-            <button type="button" class="search__button">
-              <img src="./images/search.svg" alt="search">
-            </button>
+          <div>
+            <form action="/" class="header__search search">
+              <input type="text" name="search" placeholder="Поиск" class="search__input">
+              <button type="button" class="search__button">
+                <img src="./images/search.svg" alt="search">
+              </button>
+            </form>
           </div>
         </div>
       </div>
@@ -82,15 +84,23 @@
               1000 руб.
             </p>
             <form action="/" class="card__form card-form">
-              <div class="card-form__options">
-                <button type="button" class="inviz-button card-form__option-button card-form__option-button--active">200 г</button>
-                <button type="button" class="inviz-button card-form__option-button">400 г</button>
-                <button type="button" class="inviz-button card-form__option-button">800 г</button>
-                <button type="button" class="inviz-button card-form__option-button">1 кг</button>
-              </div>
-              <div  class="card-form__buttons">
+              <div class="card-form__options radio">
+                <label class="radio__label radio__label--checked card-form__option-button">200 г
+                  <input type="radio" name="option" id="min" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">400 г
+                  <input type="radio" name="option" id="small" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">800 г
+                  <input type="radio" name="option" id="medium" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">1 кг
+                  <input type="radio" name="option" id="max" class="radio__input">
+                </label>
+                </div>
+                <div class="card-form__buttons">
                 <a href="/" class="fill-button link-button">Подробнее</a>
-                <button class="buy-icon-button">
+                <button class="buy-icon-button button">
                 </button>
               </div>
             </form>
@@ -111,15 +121,23 @@
               1000 руб.
             </p>
             <form action="/" class="card__form card-form">
-              <div class="card-form__options">
-                <button type="button" class="inviz-button card-form__option-button card-form__option-button--active">200 г</button>
-                <button type="button" class="inviz-button card-form__option-button">400 г</button>
-                <button type="button" class="inviz-button card-form__option-button">800 г</button>
-                <button type="button" class="inviz-button card-form__option-button">1 кг</button>
+              <div class="card-form__options radio">
+                <label class="radio__label radio__label--checked card-form__option-button">200 г
+                  <input type="radio" name="option" id="min" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">400 г
+                  <input type="radio" name="option" id="small" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">800 г
+                  <input type="radio" name="option" id="medium" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">1 кг
+                  <input type="radio" name="option" id="max" class="radio__input">
+                </label>
               </div>
-              <div  class="card-form__buttons">
+              <div class="card-form__buttons">
                 <a href="/" class="fill-button link-button">Подробнее</a>
-                <button class="buy-icon-button">
+                <button class="buy-icon-button button">
                 </button>
               </div>
             </form>
@@ -140,15 +158,23 @@
               1000 руб.
             </p>
             <form action="/" class="card__form card-form">
-              <div class="card-form__options">
-                <button type="button" class="inviz-button card-form__option-button card-form__option-button--active">200 г</button>
-                <button type="button" class="inviz-button card-form__option-button">400 г</button>
-                <button type="button" class="inviz-button card-form__option-button">800 г</button>
-                <button type="button" class="inviz-button card-form__option-button">1 кг</button>
+              <div class="card-form__options radio">
+                <label class="radio__label radio__label--checked card-form__option-button">200 г
+                  <input type="radio" name="option" id="min" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">400 г
+                  <input type="radio" name="option" id="small" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">800 г
+                  <input type="radio" name="option" id="medium" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">1 кг
+                  <input type="radio" name="option" id="max" class="radio__input">
+                </label>
               </div>
-              <div  class="card-form__buttons">
+              <div class="card-form__buttons">
                 <a href="/" class="fill-button link-button">Подробнее</a>
-                <button class="buy-icon-button">
+                <button class="buy-icon-button button">
                 </button>
               </div>
             </form>
@@ -169,15 +195,23 @@
               1000 руб.
             </p>
             <form action="/" class="card__form card-form">
-              <div class="card-form__options">
-                <button type="button" class="inviz-button card-form__option-button card-form__option-button--active">200 г</button>
-                <button type="button" class="inviz-button card-form__option-button">400 г</button>
-                <button type="button" class="inviz-button card-form__option-button">800 г</button>
-                <button type="button" class="inviz-button card-form__option-button">1 кг</button>
+              <div class="card-form__options radio">
+                <label class="radio__label radio__label--checked card-form__option-button">200 г
+                  <input type="radio" name="option" id="min" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">400 г
+                  <input type="radio" name="option" id="small" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">800 г
+                  <input type="radio" name="option" id="medium" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">1 кг
+                  <input type="radio" name="option" id="max" class="radio__input">
+                </label>
               </div>
-              <div  class="card-form__buttons">
+              <div class="card-form__buttons">
                 <a href="/" class="fill-button link-button">Подробнее</a>
-                <button class="buy-icon-button">
+                <button class="buy-icon-button button">
                 </button>
               </div>
             </form>
@@ -198,15 +232,23 @@
               1000 руб.
             </p>
             <form action="/" class="card__form card-form">
-              <div class="card-form__options">
-                <button type="button" class="inviz-button card-form__option-button card-form__option-button--active">200 г</button>
-                <button type="button" class="inviz-button card-form__option-button">400 г</button>
-                <button type="button" class="inviz-button card-form__option-button">800 г</button>
-                <button type="button" class="inviz-button card-form__option-button">1 кг</button>
+              <div class="card-form__options radio">
+                <label class="radio__label radio__label--checked card-form__option-button">200 г
+                  <input type="radio" name="option" id="min" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">400 г
+                  <input type="radio" name="option" id="small" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">800 г
+                  <input type="radio" name="option" id="medium" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">1 кг
+                  <input type="radio" name="option" id="max" class="radio__input">
+                </label>
               </div>
-              <div  class="card-form__buttons">
+              <div class="card-form__buttons">
                 <a href="/" class="fill-button link-button">Подробнее</a>
-                <button class="buy-icon-button">
+                <button class="buy-icon-button button">
                 </button>
               </div>
             </form>
@@ -227,15 +269,23 @@
               1000 руб.
             </p>
             <form action="/" class="card__form card-form">
-              <div class="card-form__options">
-                <button type="button" class="inviz-button card-form__option-button card-form__option-button--active">200 г</button>
-                <button type="button" class="inviz-button card-form__option-button">400 г</button>
-                <button type="button" class="inviz-button card-form__option-button">800 г</button>
-                <button type="button" class="inviz-button card-form__option-button">1 кг</button>
+              <div class="card-form__options radio">
+                <label class="radio__label radio__label--checked card-form__option-button">200 г
+                  <input type="radio" name="option" id="min" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">400 г
+                  <input type="radio" name="option" id="small" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">800 г
+                  <input type="radio" name="option" id="medium" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">1 кг
+                  <input type="radio" name="option" id="max" class="radio__input">
+                </label>
               </div>
-              <div  class="card-form__buttons">
+              <div class="card-form__buttons">
                 <a href="/" class="fill-button link-button">Подробнее</a>
-                <button class="buy-icon-button">
+                <button class="buy-icon-button button">
                 </button>
               </div>
             </form>
@@ -256,15 +306,23 @@
               1000 руб.
             </p>
             <form action="/" class="card__form card-form">
-              <div class="card-form__options">
-                <button type="button" class="inviz-button card-form__option-button card-form__option-button--active">200 г</button>
-                <button type="button" class="inviz-button card-form__option-button">400 г</button>
-                <button type="button" class="inviz-button card-form__option-button">800 г</button>
-                <button type="button" class="inviz-button card-form__option-button">1 кг</button>
+              <div class="card-form__options radio">
+                <label class="radio__label radio__label--checked card-form__option-button">200 г
+                  <input type="radio" name="option" id="min" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">400 г
+                  <input type="radio" name="option" id="small" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">800 г
+                  <input type="radio" name="option" id="medium" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">1 кг
+                  <input type="radio" name="option" id="max" class="radio__input">
+                </label>
               </div>
-              <div  class="card-form__buttons">
+              <div class="card-form__buttons">
                 <a href="/" class="fill-button link-button">Подробнее</a>
-                <button class="buy-icon-button">
+                <button class="buy-icon-button button">
                 </button>
               </div>
             </form>
@@ -285,15 +343,23 @@
               1000 руб.
             </p>
             <form action="/" class="card__form card-form">
-              <div class="card-form__options">
-                <button type="button" class="inviz-button card-form__option-button card-form__option-button--active">200 г</button>
-                <button type="button" class="inviz-button card-form__option-button">400 г</button>
-                <button type="button" class="inviz-button card-form__option-button">800 г</button>
-                <button type="button" class="inviz-button card-form__option-button">1 кг</button>
+              <div class="card-form__options radio">
+                <label class="radio__label radio__label--checked card-form__option-button">200 г
+                  <input type="radio" name="option" id="min" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">400 г
+                  <input type="radio" name="option" id="small" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">800 г
+                  <input type="radio" name="option" id="medium" class="radio__input">
+                </label>
+                <label class="radio__label card-form__option-button">1 кг
+                  <input type="radio" name="option" id="max" class="radio__input">
+                </label>
               </div>
-              <div  class="card-form__buttons">
+              <div class="card-form__buttons">
                 <a href="/" class="fill-button link-button">Подробнее</a>
-                <button class="buy-icon-button">
+                <button class="buy-icon-button button">
                 </button>
               </div>
             </form>

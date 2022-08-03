@@ -12,11 +12,6 @@
     @include font(18px,21px,500);
   }
 
-  &__option-button--active {
-    background-color: #FFFFFF;
-    border: 1px solid #3ECF5E;
-  }
-
   &__buttons {
     @include flexsb();
     @include font(18px,21px,600);

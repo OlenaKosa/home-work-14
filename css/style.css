@@ -418,33 +418,37 @@ p {
   border-radius: 10px;
   width: 345px;
   height: 54px;
-  padding-top: 11px;
-  padding-left: 20px;
-  padding-bottom: 4px;
-  padding-right: 22px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .search__input {
-  background: inherit;
+  padding-top: 17px;
+  padding-left: 20px;
+  padding-bottom: 14px;
+  background: none;
   border: none;
   font-size: 18px;
   line-height: 21px;
   flex-grow: 1;
+  border-radius: inherit;
 }
 .search__input:focus-visible {
   outline: none;
 }
 .search__button {
-  background: inherit;
+  padding-top: 19px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  background: none;
   border: none;
-  padding: 0;
   align-self: flex-end;
+  border-radius: inherit;
 }
 .search__button img {
   width: 26px;
   height: 27px;
+  vertical-align: middle;
 }
 
 .navigation {

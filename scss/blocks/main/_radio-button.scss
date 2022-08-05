@@ -8,10 +8,15 @@
     border: 1px solid rgba(0, 150, 100, 0);
   }
 
-  &__label--checked {
+  &__input[type=radio]:checked + &__label {
     background-color: #FFFFFF;
     border: 1px solid #3ECF5E;
   }
+
+  // &__label--checked {
+  //   background-color: #FFFFFF;
+  //   border: 1px solid #3ECF5E;
+  // }
 
   &__input {
     display:none;

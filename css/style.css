@@ -623,7 +623,7 @@ p {
   border-radius: 5px;
   border: 1px solid rgba(0, 150, 100, 0);
 }
-.radio__label--checked {
+.radio__input[type=radio]:checked + .radio__label {
   background-color: #FFFFFF;
   border: 1px solid #3ECF5E;
 }

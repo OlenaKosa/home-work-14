@@ -8,12 +8,9 @@
     @include flexsb();
   }
 
-  &__halfrow {
-    width: 50%;
-    @include flexsb();
-  }
-
   &__links {
+    width: 40%;
+    text-align: left;
   }
 
   &__link {
@@ -27,11 +24,12 @@
   }
 
   &__buttons {
+    width: 20%;
+    text-align: center;
+
     img {
       width: 25px;
       height: 25px;
-      margin-right: 10px;
-      margin-left: 10px;
     }
 
     a {
@@ -44,6 +42,8 @@
   }
 
   &__tel {
+    width: 40%;
+    text-align: right;
 
     a {
       color: #FFF;

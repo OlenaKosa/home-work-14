@@ -565,11 +565,9 @@ p {
   justify-content: space-between;
   align-items: center;
 }
-.footer__halfrow {
-  width: 50%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.footer__links {
+  width: 40%;
+  text-align: left;
 }
 .footer__link {
   font-size: 18px;
@@ -581,17 +579,23 @@ p {
 .footer__link:last-of-type {
   margin-right: 0;
 }
+.footer__buttons {
+  width: 20%;
+  text-align: center;
+}
 .footer__buttons img {
   width: 25px;
   height: 25px;
-  margin-right: 10px;
-  margin-left: 10px;
 }
 .footer__buttons a {
   margin-right: 20px;
 }
 .footer__buttons a:last-of-type {
   margin-right: 0;
+}
+.footer__tel {
+  width: 40%;
+  text-align: right;
 }
 .footer__tel a {
   color: #FFF;

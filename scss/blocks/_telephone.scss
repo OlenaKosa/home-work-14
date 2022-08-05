@@ -2,10 +2,10 @@
 
     &__img {
       margin-right: 10px;
+      vertical-align: middle;
     }
 
     &__link {
       @include font(18px,21px);
-      vertical-align: top;
     }
 }

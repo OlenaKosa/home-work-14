@@ -405,11 +405,11 @@ p {
 
 .telephone__img {
   margin-right: 10px;
+  vertical-align: middle;
 }
 .telephone__link {
   font-size: 18px;
   line-height: 21px;
-  vertical-align: top;
 }
 
 .search {
@@ -497,7 +497,7 @@ p {
 .user-buttons__button {
   width: 32px;
   height: 45px;
-  margin-right: 15px;
+  margin-right: 25px;
   padding: 10px 0;
   background: none;
 }
